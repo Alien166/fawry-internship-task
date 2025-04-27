@@ -1,6 +1,6 @@
 # Fawry Internship - DevOps Tasks
 
-This repo contains the tasks completed during the DevOps internship at Fawry. Below are the two tasks and their solutions.
+This repo contains on my solutions for the the DevOps internship at Fawry. Below are the two tasks and their solutions.
 
 ![Example of -n option output](/img/fawry.png)
 
@@ -121,7 +121,7 @@ This task involves troubleshooting connectivity issues for an internal web dashb
    # Check DNS resolution using Google DNS
    nslookup internal.example.com 8.8.8.8
    ```
-   
+
 ![Example of -n option output](/img/nslookup-2.png)
    
 
