@@ -120,8 +120,10 @@ This task involves troubleshooting connectivity issues for an internal web dashb
    
    # Check DNS resolution using Google DNS
    nslookup internal.example.com 8.8.8.8
-![Example of -n option output](/img/nslookup-2.png)
    ```
+   
+![Example of -n option output](/img/nslookup-2.png)
+   
 
 ### 2. **Diagnose Service Reachability**
    to check if the web service is actually reachable.
