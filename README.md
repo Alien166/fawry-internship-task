@@ -75,6 +75,28 @@ This script is a mini version of the `grep` command that allows searching for st
 - I added support for the `--help` flag to provide usage information.
 - I improved option parsing using `getopts`.
 
+
+
+### How to use mygrep script ? 
+
+#### **Commands:**
+   ```bash
+   # clone the repo
+   git clone https://github.com/Alien166/fawry-internship-task.git
+
+   # change the Permission
+   chmod +x mygrep.sh
+   
+   # test it with this examples 
+
+   ./mygrep.sh hello testfile.txt
+
+   ./mygrep.sh -n hello testfile.txt
+
+   ./mygrep.sh -v hello testfile.txt
+
+   ```
+
 ...
 
 ---
@@ -118,6 +140,7 @@ This task involves troubleshooting connectivity issues for an internal web dashb
    curl -v http://internal.example.com
    ```
 ![Example of -n option output](/img/nslookup-2.png)
+
 
 
 ### 3. **Verify DNS Configuration in /etc/resolv.conf**
