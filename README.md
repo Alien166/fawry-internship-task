@@ -99,7 +99,7 @@ This task involves troubleshooting connectivity issues for an internal web dashb
    # Check DNS resolution using Google DNS
    nslookup internal.example.com 8.8.8.8
 ![Example of -n option output](/img/nslookup-2.png)
-
+   ```
 
 ### 2. **Diagnose Service Reachability**
    to check if the web service is actually reachable.
@@ -116,7 +116,7 @@ This task involves troubleshooting connectivity issues for an internal web dashb
    
    # Test HTTP connection
    curl -v http://internal.example.com
-
+   ```
 ![Example of -n option output](/img/nslookup-2.png)
 
 
@@ -129,6 +129,7 @@ This task involves troubleshooting connectivity issues for an internal web dashb
    ```bash
    # View the DNS configuration
    cat /etc/resolv.conf
+   ```
 
 #### The /etc/resolv.conf file contains the DNS servers that the system uses to resolve domain names. If it's empty or incorrectly configured, DNS resolution will fail.   
 
@@ -143,7 +144,7 @@ we can temporarily add the domain and IP address mapping in the /etc/hosts file 
    ```bash
    # Edit the /etc/hosts file
    sudo nano /etc/hosts
-
+   ```
 
 Add an entry to map internal.example.com to the corresponding IP address in /etc/hosts
 
