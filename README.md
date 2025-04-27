@@ -103,7 +103,7 @@ This script is a mini version of the `grep` command that allows searching for st
 
 # Task-2-troubleshooting-network-issue
 
-This task involves troubleshooting connectivity issues for an internal web dashboard hosted on `internal.example.com`. The service appears to be up, but users are getting “host not found” errors. The task includes DNS verification, service reachability checks, and proposing fixes.
+This task involves troubleshooting connectivity issues for an internal web dashboard hosted on `internal.example.com`. The service appears to be up, but users are getting “host not found” errors.
 
 ## Tshooting Steps:
 
